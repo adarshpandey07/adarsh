@@ -1,0 +1,118 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p{
+  line-height: 2;
+}
+hr{
+  border-style: dotted;
+  border-width: 6px 0 0 0 ;
+  border-color: #eaf6f6;
+  height: 0;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+h1 {
+  color: #66bfbf;
+  margin: 80px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+h2{
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+color: #11999e;
+
+}
+a{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+.top-container{
+
+  background-color: #d9ecf2;
+  padding-top: 30px;
+}
+.middle-container{
+  margin: 100px 0 100px 0;
+}
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+
+.upper-cloud{
+
+  position: absolute;
+  right: 310px;
+  top: 40px;
+}
+.below-cloud{
+  position: absolute;
+  left: 250px;
+  top: 350px;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.dev{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.chilli{
+  width: 25%;
+  float: right;
+
+}
+.contact{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.myButton {
+	background-color:#11CDD4;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #30e3cb ;
+}
+.myButton:hover {
+	background-color:#30E3CB;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
